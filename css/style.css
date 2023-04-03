@@ -564,6 +564,7 @@ body {
 }
 .services__item-img {
   margin-bottom: 30px;
+  transition: all 0.5s;
 }
 .services__item-title {
   color: #4a4a4a;
@@ -1187,9 +1188,16 @@ body {
   line-height: 20px;
   color: white;
 }
+.footer__link:hover {
+  color: #5f907e;
+}
+.footer__social-icon:hover {
+  background-color: #5f907e;
+}
 .footer__contacts, .footer__menu, .footer__help {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 @media (min-width: 640px) {

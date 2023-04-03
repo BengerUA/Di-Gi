@@ -359,6 +359,7 @@
   }
   &__item-img {
     margin-bottom: 30px;
+    transition: all 0.5s;
   }
   &__item-title {
     color: $text-color;
@@ -1016,11 +1017,18 @@
     line-height: 20px;
     color: white;
   }
+  &__link:hover {
+    color: #5f907e;
+  }
+  &__social-icon:hover {
+    background-color: #5f907e;
+  }
   &__contacts,
   &__menu,
   &__help {
     display: flex;
     flex-direction: column;
+    gap: 5px;
   }
 }
 
