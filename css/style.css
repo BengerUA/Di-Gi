@@ -1187,12 +1187,18 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: white;
+  transition: all 0.5s;
 }
 .footer__link:hover {
   color: #5f907e;
+  transition: all 0.5s;
+}
+.footer__social-icon {
+  transition: all 0.5s;
 }
 .footer__social-icon:hover {
   background-color: #5f907e;
+  transition: all 0.5s;
 }
 .footer__contacts, .footer__menu, .footer__help {
   display: flex;
